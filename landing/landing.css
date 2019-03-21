@@ -31,6 +31,16 @@ body {
     border-width: 2.5px;
     border-color: darkgray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: slidein 2s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 30%;
+    }
 }
 
 #signup, #login {
