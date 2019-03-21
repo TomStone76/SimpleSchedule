@@ -1,7 +1,19 @@
 .jumbotron {
     width: 100%;
-    background-color: skyblue;
+    background-color: lightgray;
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
+    border-radius: 0px;
 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("../images/landing_background.jpg");
+    background-size: 100%;
 }
